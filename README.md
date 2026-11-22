@@ -1,58 +1,60 @@
 <div align="center">
 
-# Hi, I'm Jasper Lin
+# 你好，我是 Jasper
 
-**AI Product Manager · AI Builder**
+**AI 产品经理 · AI Builder**
 
-*From product thinking to working AI systems.*
+让 AI 不止能回答问题，还能真正完成工作。
 
-Based in Shenzhen, China
+深圳 · [English](README.en.md)
 
 </div>
 
-## About Me
+## 关于我
 
-I'm an AI product manager interested in building useful, reliable AI products and turning complex AI capabilities into practical experiences.
+我是一名 AI 产品经理，关注 **AI Agent、LLM 应用和产品工程化落地**。
 
-I work at the intersection of **product design**, **AI agents**, and **engineering execution**. My open-source work explores how people and AI can design products together, create executable workflows, and continue work across agents and sessions.
+比起单纯把大模型接入产品，我更关心：**解决什么真实问题、Agent 如何与工具协作、结果如何评估，以及产品怎样持续迭代**。
 
-## Featured Projects
+业余时间，我也会通过开源项目探索「**产品设计 × AI 工程**」的实践方式。
 
-### [Yuanxing · 元形](https://github.com/JasperLin2333/yuanxing)
+## 代表项目
 
-**Turn requirements into interactive prototypes.**
+### [元形 Yuanxing](https://github.com/JasperLin2333/yuanxing) · AI 原型设计工作台
 
-An open-source Agent Skill and local workbench for AI-assisted prototyping. It connects interactive HTML prototypes, flow diagrams, and product documents to support faster iteration and review.
+**用自然语言，把产品需求变成可交互原型。**
 
-[Product site](https://jasperlin2333.github.io/yuanxing/) · [Live demo](https://jasperlin2333.github.io/yuanxing/demo/prototype.html) · [Source](https://github.com/JasperLin2333/yuanxing)
+面向产品设计与评审的开源 Agent Skill 和本地工作台，支持在 AI 辅助下制作、修改交互原型，并将原型、流程画布和需求文档组织在一起。
 
-### [Flash Flow](https://github.com/JasperLin2333/Flash-Flow)
+[产品介绍](https://jasperlin2333.github.io/yuanxing/) · [在线体验](https://jasperlin2333.github.io/yuanxing/demo/prototype.html) · [GitHub 仓库](https://github.com/JasperLin2333/yuanxing)
 
-**Generate and run AI workflows using natural language.**
+### [Flash Flow](https://github.com/JasperLin2333/Flash-Flow) · 自然语言 AI 工作流平台
 
-An experimental AI workflow platform combining agentic planning, visual orchestration, tool execution, RAG, and deterministic validation of generated workflows.
+**从一句需求到可执行的 AI 工作流。**
 
-[Source & architecture](https://github.com/JasperLin2333/Flash-Flow)
+探索自然语言规划、可视化工作流编排、工具调用、RAG 和工作流执行。重点关注大模型生成的不确定性，以及如何通过结构校验与确定性修复提高执行可靠性。
 
-### [Context Continuity](https://github.com/JasperLin2333/context-continuity)
+[项目源码与架构说明](https://github.com/JasperLin2333/Flash-Flow)
 
-**Help AI agents pick up where previous sessions left off.**
+### [Context Continuity](https://github.com/JasperLin2333/context-continuity) · 跨 Agent 上下文协作
 
-An open-source Agent Skill for source-of-truth management, reliable handoffs, and preserving verified decisions across tools, sessions, and agents.
+**换个 Agent，工作也能接得上。**
 
-[Source](https://github.com/JasperLin2333/context-continuity) · [English README](https://github.com/JasperLin2333/context-continuity/blob/main/README.en.md)
+一个面向跨会话、跨工具协作的开源 Skill：帮助 Agent 找到当前事实来源、理解已确认的决策、交接任务上下文，并把结果回写到正确的位置。
 
-## Interests
+[GitHub 仓库](https://github.com/JasperLin2333/context-continuity) · [使用说明](https://github.com/JasperLin2333/context-continuity#开始使用)
 
-- AI Agents, tool calling & workflow orchestration
-- AI product design & interactive prototyping
-- Agent Harness, context engineering & collaboration
-- LLM evaluation, reliability & practical applications
+## 持续关注
 
-## What I Believe
+- **AI Agent**：工具调用、工作流编排、Skill 设计与协作
+- **LLM 产品化**：Prompt 优化、效果评估、可靠性与成本
+- **产品设计**：需求分析、交互原型、复杂业务流程
+- **工程实践**：Agent Harness、上下文工程与持续迭代
 
-> Good AI products don't just generate answers. They help people get real work done.
+## 我的产品理念
+
+> 好的 AI 产品，不只是生成答案，而是帮助用户真正完成工作。
 
 ---
 
-*Feel free to explore the projects, open an issue, or share feedback.*
+欢迎查看项目、提交 Issue，或交流 AI 产品与工程实践。
