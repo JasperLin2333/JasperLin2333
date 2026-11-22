@@ -4,55 +4,64 @@
 
 **AI Product Manager · AI Builder**
 
-*From product thinking to working AI systems.*
+*AI extends my capabilities; firsthand experience shapes how I understand products.*
 
-Based in Shenzhen, China
+Shenzhen, China · [简体中文](README.md)
 
 </div>
 
 ## About Me
 
-I'm an AI product manager interested in building useful, reliable AI products and turning complex AI capabilities into practical experiences.
+I'm an AI product manager focused on **AI agents, LLM applications, and practical product engineering**.
 
-I work at the intersection of **product design**, **AI agents**, and **engineering execution**. My open-source work explores how people and AI can design products together, create executable workflows, and continue work across agents and sessions.
+I use AI for research, information gathering, product analysis, and prototyping. But when evaluating a product, I still take the time to **sign up, use it, explore different flows, and form judgments from my own experience**. I then examine those observations alongside user feedback, business constraints, and evidence.
+
+Outside of work, I build open-source tools at the intersection of **product design and AI engineering**.
 
 ## Featured Projects
 
-### [Yuanxing · 元形](https://github.com/JasperLin2333/yuanxing)
+### [Yuanxing · 元形](https://github.com/JasperLin2333/yuanxing) · AI Prototyping Workbench
 
-**Turn requirements into interactive prototypes.**
+**Turn product requirements into interactive prototypes.**
 
-An open-source Agent Skill and local workbench for AI-assisted prototyping. It connects interactive HTML prototypes, flow diagrams, and product documents to support faster iteration and review.
+An open-source Agent Skill and local workbench for building and editing interactive prototypes, visual flows, and product documentation together.
 
-[Product site](https://jasperlin2333.github.io/yuanxing/) · [Live demo](https://jasperlin2333.github.io/yuanxing/demo/prototype.html) · [Source](https://github.com/JasperLin2333/yuanxing)
+[Website](https://jasperlin2333.github.io/yuanxing/) · [Try the demo](https://jasperlin2333.github.io/yuanxing/demo/prototype.html) · [Repository](https://github.com/JasperLin2333/yuanxing)
 
-### [Flash Flow](https://github.com/JasperLin2333/Flash-Flow)
+### [Flash Flow](https://github.com/JasperLin2333/Flash-Flow) · Natural-Language AI Workflows
 
-**Generate and run AI workflows using natural language.**
+**From a natural-language request to an executable AI workflow.**
 
-An experimental AI workflow platform combining agentic planning, visual orchestration, tool execution, RAG, and deterministic validation of generated workflows.
+Exploring agentic planning, visual workflow orchestration, tool calling, RAG, and deterministic validation and repair to make generated workflows more reliable.
 
-[Source & architecture](https://github.com/JasperLin2333/Flash-Flow)
+[Source and design notes](https://github.com/JasperLin2333/Flash-Flow)
 
-### [Context Continuity](https://github.com/JasperLin2333/context-continuity)
+### [Context Continuity](https://github.com/JasperLin2333/context-continuity) · Cross-Agent Collaboration
 
-**Help AI agents pick up where previous sessions left off.**
+**Switch agents without losing the work already done.**
 
-An open-source Agent Skill for source-of-truth management, reliable handoffs, and preserving verified decisions across tools, sessions, and agents.
+An open-source Agent Skill for finding current sources of truth, preserving accepted decisions, passing context between tasks, and writing verified outcomes back into the project.
 
-[Source](https://github.com/JasperLin2333/context-continuity) · [English README](https://github.com/JasperLin2333/context-continuity/blob/main/README.en.md)
+[Repository](https://github.com/JasperLin2333/context-continuity) · [English usage guide](https://github.com/JasperLin2333/context-continuity/blob/main/README.en.md)
 
-## Interests
+## How I Approach Products
 
-- AI Agents, tool calling & workflow orchestration
-- AI product design & interactive prototyping
-- Agent Harness, context engineering & collaboration
-- LLM evaluation, reliability & practical applications
+1. **Research with AI:** gather information and map the product's structure.
+2. **Experience it myself:** try real user journeys and pay attention to friction, intuition, and surprises.
+3. **Analyze the whole system:** consider users, workflows, incentives, and technical constraints.
+4. **Validate decisions:** compare my observations with feedback and evidence, then iterate.
 
-## What I Believe
+## Areas of Interest
 
-> Good AI products don't just generate answers. They help people get real work done.
+- AI Agents, tool calling, workflow orchestration, and Skills
+- LLM evaluation, reliability, and practical product applications
+- Product research, interactive prototypes, and complex workflows
+- Agent Harness, context engineering, and continuous iteration
+
+## Product Philosophy
+
+> AI is an extension of our capabilities, not a replacement for human experience and judgment.
 
 ---
 
-*Feel free to explore the projects, open an issue, or share feedback.*
+Feel free to explore the projects, open an issue, or share feedback.
