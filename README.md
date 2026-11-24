@@ -1,67 +1,63 @@
 <div align="center">
 
-# 你好，我是 Jasper
+# 你好，我是 Jasper Lin
 
-**AI 产品经理 · AI Builder**
+**深圳 · B 端与 Agent 方向 AI 产品经理**
 
-用 AI 扩展能力，用亲身体验理解产品。
+我关注的不是 AI 能否生成，而是如何让概率性的模型可靠地进入真实业务流。
 
-深圳 · [English](README.en.md)
+[即刻动态](https://web.okjike.com/u/13a3f63b-4381-4ae2-bbbf-4f5c56895839) · [邮件联系](mailto:jasperlin2333@gmail.com) · [English](README.en.md)
 
 </div>
 
 ## 关于我
 
-我是一名 AI 产品经理，关注 **AI Agent、LLM 应用和产品工程化落地**。
+我是一名专注 **B 端业务流、企业级 Agent 与 RAG 落地**的 AI 产品经理。
 
-我会使用 AI 辅助调研、信息收集、功能拆解和产品设计，但也坚持**亲自使用、尝试和感受产品**，再结合用户反馈与实际约束形成判断。
+日常从真实业务流程拆解、方案与交互设计做到 RAG/Agent 架构选型与质量评测；遇到手头趁手工具缺位或协作痛点时，习惯直接借助 AI 动手把工具做出来，验证之后开源出来。
 
-业余时间，我也会通过开源项目探索「**产品设计 × AI 工程**」的实践方式。
+## 代表开源造物
 
-## 我的产品实践
+### [元形 Yuanxing](https://github.com/JasperLin2333/yuanxing) · 面向产品设计的开源 Skill 与本地工作台
 
-1. **用 AI 做准备**：调研、信息收集、功能拆解与方案探索。
-2. **亲自体验产品**：注册、操作、尝试不同流程，留意顺畅、困惑和意外之处。
-3. **结合现实约束判断**：对照用户反馈、业务流程、各方影响与技术条件。
-4. **验证后持续迭代**：用实际体验和反馈修正最初的假设。
+**用自然语言，把需求变成可交互原型、流程画布与同源需求文档。**
 
-## 代表项目
-
-### [元形 Yuanxing](https://github.com/JasperLin2333/yuanxing) · AI 原型设计工作台
-
-**用自然语言，把产品需求变成可交互原型。**
-
-面向产品设计与评审的开源 Agent Skill 和本地工作台，支持在 AI 辅助下制作、修改交互原型，并将原型、流程画布和需求文档组织在一起。
+解决老系统改版“AI 全量重绘走样”与“PRD 和原型两张皮”的痛点：支持旧截图锁底 + 局部 HTML 增量改版，可交互组件直接嵌入 Markdown 文档并就地回写，最终导出单文件离线 HTML 交付评审。
 
 [产品介绍](https://jasperlin2333.github.io/yuanxing/) · [在线体验](https://jasperlin2333.github.io/yuanxing/demo/prototype.html) · [GitHub 仓库](https://github.com/JasperLin2333/yuanxing)
+
+### [Context Continuity](https://github.com/JasperLin2333/context-continuity) · 跨 Agent 上下文协作治理
+
+**换个 Agent，工作依然接得上。**
+
+解决多会话、多 AI 助手切换后“旧摘要覆盖新决定、历史产物被误删”的协作痛点：把权威维护源、最小交接契约与回写边界落实到项目文件中，配合元形支持复杂项目持续演进。
+
+[GitHub 仓库](https://github.com/JasperLin2333/context-continuity) · [使用说明](https://github.com/JasperLin2333/context-continuity#开始使用)
 
 ### [Flash Flow](https://github.com/JasperLin2333/Flash-Flow) · 自然语言 AI 工作流平台
 
 **从一句需求到可执行的 AI 工作流。**
 
-探索自然语言规划、可视化工作流编排、工具调用、RAG 和工作流执行。重点关注大模型生成的不确定性，以及如何通过结构校验与确定性修复提高执行可靠性。
+探索自然语言规划、可视化工作流编排、工具调用、RAG 与结构校验/自动修复机制，重点解决大模型执行链路中的不确定性问题。
 
 [项目源码与架构说明](https://github.com/JasperLin2333/Flash-Flow)
 
-### [Context Continuity](https://github.com/JasperLin2333/context-continuity) · 跨 Agent 上下文协作
+## 我怎么判断一个 AI 产品
 
-**换个 Agent，工作也能接得上。**
+1. **是否顺着业务流推动真实动作**：结果要自然嵌入用户的下一步工作，而不是停留在孤立生成。
+2. **概率波动下边界是否可控**：承认大模型天然是概率性的，把前置条件、状态感知和兜底恢复放进主流程。
+3. **有没有数据与场景评测闭环**：用真实行为日志和场景黄金测试集校准迭代方向，用真实体感和反馈修正假设。
 
-一个面向跨会话、跨工具协作的开源 Skill：帮助 Agent 找到当前事实来源、理解已确认的决策、交接任务上下文，并把结果回写到正确的位置。
+## 关注方向
 
-[GitHub 仓库](https://github.com/JasperLin2333/context-continuity) · [使用说明](https://github.com/JasperLin2333/context-continuity#开始使用)
+- **B 端与 Agent 落地**：工具调用、技能体系封装、跨应用上下文协同
+- **RAG 与质量评测**：知识治理、权限隔离、重排与检索评测体系
+- **产品设计与人机协同**：GUI × CLI 融合、增量原型与需求同源交付
 
-## 持续关注
+## 交流与联系
 
-- **AI Agent**：工具调用、工作流编排、Skill 设计与协作
-- **LLM 产品化**：Prompt 优化、效果评估、可靠性与成本
-- **产品设计**：需求分析、交互原型、复杂业务流程
-- **工程实践**：Agent Harness、上下文工程与持续迭代
+欢迎交流 B 端 AI 产品设计、Agent 工程化落地实践、开源工具反馈或团队合作机会：
 
-## 我的产品理念
-
-> AI 是能力的延伸，而不是人的感受与判断的替代。
-
----
-
-欢迎查看项目、提交 Issue，或交流 AI 产品与工程实践。
+- **邮件**：[jasperlin2333@gmail.com](mailto:jasperlin2333@gmail.com)
+- **即刻**：[okjike.com/u/13a3f63b-4381-4ae2-bbbf-4f5c56895839](https://web.okjike.com/u/13a3f63b-4381-4ae2-bbbf-4f5c56895839)
+- **反馈与共建**：欢迎在对应项目提交 Issue 或 PR
